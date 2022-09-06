@@ -1,0 +1,67 @@
+body{
+
+}
+
+p{
+    color: red;
+}
+
+.red-color{
+    color: red;
+}
+
+.blue-color{
+color: blue;
+}
+
+#green-color{
+    color: green;
+}
+
+/* *{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+} */
+
+h1,h2,h3{
+    color: rebeccapurple;
+}
+
+.purple-color,
+.redish-color,
+.whitesh{
+    color: rebeccapurple;
+}
+
+#id,
+#id2,
+#id3{
+    color: red;
+}
+
+.anchor,
+#id,
+.button{
+    border: 1px solid #333;
+}
+
+div p{
+    color: lime;
+}
+
+div > p{
+    color:burlywood;
+}
+
+p:hover{
+    color: aquamarine;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+input[type="password"]{
+    height: 40px;
+    border: 1px solid white;
+}
